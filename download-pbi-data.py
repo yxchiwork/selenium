@@ -11,8 +11,8 @@ from sys import platform
 
 with open('config.json', 'r') as f:
     config = json.load(f)
-username = config['credentials']['un']
-password = config['credentials']['pw']
+username = config['credentials']['username']
+password = config['credentials']['password']
 powerbiurl = config['links']['server']
 report1url = config['links']['report1']
 report2url = config['links']['report2']
