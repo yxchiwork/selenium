@@ -115,4 +115,5 @@ rename('data2')
 driver.quit()
 
 print("Job is done, here is the file list in the folder.")
+print(os.getcwd())
 print(os.listdir(downloadpath))
