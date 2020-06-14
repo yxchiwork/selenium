@@ -18,12 +18,10 @@ report1url = config['links']['report1']
 report2url = config['links']['report2']
 filesdownloaded = 1
 # set download folder path according to OS
-if platform == "linux" or platform == "linux2":
-    downloadpath = config['downloadfolder']['linux'] + '/download/'
-elif platform == "darwin":
-    downloadpath = config['downloadfolder']['mac'] + '/download/'
+if platform == "linux" or platform == "linux2" or platform == "darwin":
+    downloadpath = config['path']['downloadfolder'] + '/download/'
 elif platform == "win32":
-    downloadpath = config['downloadfolder']['win'] + + '\\download\\'
+    downloadpath = config['path']['downloadfolder'] + + '\\download\\'
 # set chrome options
 options = webdriver.ChromeOptions() 
 prefs = {"profile.default_content_settings.popups": 0,
