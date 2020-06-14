@@ -1,0 +1,17 @@
+{
+    "credentials" :{
+        "un" : "gates@hicityapp.com",
+        "pw" : "Cs.23311998"
+    },
+    "links" : {
+        "server" :"https://app.powerbi.com/?route=groups%2fme%2fgetdata&noSignUpCheck=1",
+        "report1":"https://app.powerbi.com/groups/me/reports/34334ab2-7f91-477f-9e81-d62986b88d5a/ReportSection",
+        "report2":"https://app.powerbi.com/groups/me/reports/34334ab2-7f91-477f-9e81-d62986b88d5a/ReportSection2"
+    },
+    "downloadfolder" : {
+        "mac":"/Users/yxchi/Downloads/code",
+        "linux":"placeholder",
+        "win":"placeholder"
+    }
+    
+}
