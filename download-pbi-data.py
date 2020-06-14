@@ -29,7 +29,7 @@ options = webdriver.ChromeOptions()
 prefs = {"profile.default_content_settings.popups": 0,
                  "download.default_directory": downloadpath,
                  "directory_upgrade": True}
-#options.add_argument('headless')
+options.add_argument('headless')
 options.add_experimental_option("prefs",prefs)      
 #initiate chrome driver
 driver = webdriver.Chrome(ChromeDriverManager().install(),options=options)
