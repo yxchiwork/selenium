@@ -1,7 +1,7 @@
 {
     "credentials" :{
-        "un" : "gates@hicityapp.com",
-        "pw" : "Cs.23311998"
+        "username" : "",
+        "password" : ""
     },
     "links" : {
         "server" :"https://app.powerbi.com/?route=groups%2fme%2fgetdata&noSignUpCheck=1",
