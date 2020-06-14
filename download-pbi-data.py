@@ -68,7 +68,7 @@ def download(reporturl):
     try:
         driver.get(reporturl)
         actualTitle = driver.title
-        section = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/root-downgrade/mat-sidenav-container/mat-sidenav-content/div/div/report/exploration-container/exploration-container-modern/div/div/exploration-host/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-modern[3]/transform/div/div[3]/div/div/div/div")))
+        section = WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/root-downgrade/mat-sidenav-container/mat-sidenav-content/div/div/report/exploration-container/exploration-container-modern/div/div/exploration-host/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-modern[3]/transform/div/div[3]/div/div/div/div")))
         hover = ActionChains(driver).move_to_element(section)
         hover.perform()
         # click on the menu
