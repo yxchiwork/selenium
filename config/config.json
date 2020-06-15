@@ -1,0 +1,15 @@
+{
+    "credentials" :{
+        "username" : "",
+        "password" : ""
+    },
+    "links" : {
+        "server" :"https://app.powerbi.com/?route=groups%2fme%2fgetdata&noSignUpCheck=1",
+        "report1":"https://app.powerbi.com/groups/me/reports/34334ab2-7f91-477f-9e81-d62986b88d5a/ReportSection",
+        "report2":"https://app.powerbi.com/groups/me/reports/34334ab2-7f91-477f-9e81-d62986b88d5a/ReportSection2"
+    },
+    "path" : {
+        "downloadfolder":"/Users/yxchi/Downloads/code"
+    }
+    
+}
