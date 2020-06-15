@@ -106,3 +106,4 @@ venv.bak/
 README.md
 # still in development
 *-dev.py
+*.code-workspace
